@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Administrador de Tareas</h1>
+    </header>
+    <main>
+        <section id="task-list">
+            <h2>Tareas</h2>
+            <ul id="tasks">
+                <!-- tareas se renderizarán aquí -->
+            </ul>
+        </section>
+        <section id="new-task">
+            <h2>Nueva Tarea</h2>
+            <form>
+                <input type="text" id="task-title" placeholder="Título de la tarea">
+                <input type="text" id="task-description" placeholder="Descripción de la tarea">
+                <button id="add-task">Agregar Tarea</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
